@@ -86,4 +86,46 @@ img{
     height: auto;
     
 }
+#featured, .featuredHeader{
+  background-color: white;
+}
+#featured{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0rem 5rem;
+    gap: 4rem;
+
+    
+
+    
+}
+.picBlock{
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+  font-size: 18px;
+  font-weight: 900;
+  gap: 10px;
+
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(24, 51, 103);
+  border-radius: 10px;
+
+  
+}
+.featuredHeader{
+  display: flex;
+  justify-content: center;
+  
+  font-weight: 900;
+  font-size: 32px;
+  padding-top: 40px;
+}
+
+
+
+
 
