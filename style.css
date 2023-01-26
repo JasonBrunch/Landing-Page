@@ -25,11 +25,12 @@ body {
     
 }
 .header{
-    
+    display: flex;
     font-size: 24px;
     font-weight: 500;
     color: #f9faf8;
     flex-shrink: 0;
+    align-items: center;
     
 }
 .box2{
@@ -37,11 +38,12 @@ body {
     display:flex;
     justify-content: flex-end;
     justify-content: space-around;
- 
+    align-items: center;
     font-size: 18px;
     color: #b5b5b6;
     flex-shrink: 0;
-    gap: 30px;
+    gap: 70px;
+    font-weight: 500;
 }
 
 
@@ -124,8 +126,95 @@ img{
   font-size: 32px;
   padding-top: 40px;
 }
+#quoteContainer{
+  display: flex;
+  background-color: rgb(207, 208, 209);
+  
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+  font-size: 28px;
+  
+  flex-direction: column;
+  
+  align-items: center;
+  color:  #1f2937;;
+
+}
+.quote{
+  font-style: light italic;
+  font-size: 36;
+  width: 50%;
+  font-weight: 50;
 
 
+}
+.quoteAuthor{
+  display: flex;
+  
+  justify-content: flex-end;
+  width: 50%;
+  padding-top: 25px;
+  font-weight: 600;
+}
+#signUp{
+  background-color: white;
+  display: flex;
+  justify-content: center;
 
+  padding-top: 75px;
+  padding-bottom: 75px;
+  
+}
+.signUpBox{
+  width: 70%;
+  height: 110px;
+  background-color: #3882F6;
+  color: #d8d8d8;
+  
+  border-style: solid;
+  border-width: 0px;
+  border-color: black;
+  border-radius: 10px;
+  display: flex;
+ 
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 30px;
+  
+  
+  padding-bottom: 30px;
+  gap: 50px;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.wordHolder{
+
+font-size: 20px;
+}
+.words{
+ 
+}
+.words2{
+  font-weight: 700;
+  font-size: 24px;
+}
+.signButton{
+  display: flex;
+  border-width: 3px;
+  border-radius: 5px;
+  border-color: white;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  border-style: solid;
+  width: 100px;
+  height:35px;
+  align-items: center ;
+  justify-content: center;
+  
+  
+}
 
 
